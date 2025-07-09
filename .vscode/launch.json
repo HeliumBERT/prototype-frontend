@@ -1,0 +1,20 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "chrome",
+			"request": "launch",
+			"name": "Launch Chrome against localhost",
+			"url": "http://localhost:5173", // Change port if needed
+			"webRoot": "${workspaceFolder}",
+			"sourceMaps": true
+		},
+
+		{
+			"command": "npm run dev",
+			"name": "Run development server",
+			"request": "launch",
+			"type": "node-terminal"
+		}
+	]
+}
